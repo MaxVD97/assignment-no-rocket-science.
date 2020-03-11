@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max van Duren_Rocket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <svg width="200%" height="200%" viewbox="0 0 1000 1000">
+        <defs>
+            <linearGradient id="vlam" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(165, 6, 6);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(255, 60, 0);stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="blauw" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgba(16, 179, 10, 0.993);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(10, 173, 97);stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="grijs" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgba(152, 176, 185, 0.993);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(48, 51, 54);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <!-- Mainframe Rocket -->
+        <g class="mainframe">
+
+        <rect class="main square" x="400" y="400" rx="20" ry="100" width="200" height="200" fill="url(#blauw)" />
+        <rect class="top square" x="420" y="100" rx="20" ry="100" width="160" height="300" fill="url(#blauw)" />
+        <rect class="bottum square" x="420" y="600" rx="20" ry="100" width="160" height="140" fill="url(#blauw)" />
+        <rect class="Grey bottum" x="420" y="700" rx="20" ry="40" width="160" height="40" fill="url(#grijs)" />
+</g>
+        <g class="window">
+        <circle class="top window" cx="500" cy="200" r="35" stroke="dimgrey" stroke-width="10" fill="mintcream" />
+        <circle class="mid window" cx="500" cy="300" r="35" stroke="dimgrey" stroke-width="10" fill="mintcream" />
+        <circle class="bottum window" cx="500" cy="500" r="35" stroke="dimgrey" stroke-width="10" fill="mintcream" />
+           
+    </g>
+        <g class="top">
+        <polygon class="top" points="440,100 560,100 500,10" fill="url(#blauw)" />
+</g>
+        <g class="Side wings">
+        <polygon class="left" points="400,550 300,550 400,450" fill="url(#blauw)" />
+        <polygon class="rechts" points="600,550 700,550 600,450" fill="url(#blauw)" />
+</g>
+        <g class="fikkie">
+        <polygon class="vlam" points="450,740 550,740 525,820 500,780 475, 820 " fill="url(#vlam)" />
+        </g>
+        <g class="Text"></g>
+        <text x="460" y="580" fill="url(#grijs)">Max #97</text>
+    </svg>
+</body>
+
+</html>
